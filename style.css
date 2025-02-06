@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: #040404;
+    font-family: "prompt", sherif;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+    padding: 15px 50px;
+    margin: 0 100px;
+}
+.nav-items{
+    display: flex;
+    gap: 40px;
+}
+span{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+span, a{
+    color: white;
+    font-family: "prompt", sherif;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ffbb3b;
+}
+.sedi{
+    font-weight: 900;
+}
