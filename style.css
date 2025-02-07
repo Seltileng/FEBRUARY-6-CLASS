@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.container{
+}body{
     height: 100vh;
     background-color: #040404;
     font-family: "prompt", sherif;
+    position: relative;
 }
 .nav-links{
     display: flex;
@@ -88,5 +88,9 @@ a:hover{
     height: 500px;
     margin-left: 310px;
     border-radius: 50px;
-    position: relative;
+    position: absolute;
+    top: 300px;
+}
+.info .inform .jok{
+    color: #ffbb3b;
 }
